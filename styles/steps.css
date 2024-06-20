@@ -1,0 +1,141 @@
+.card {
+  height: 300px;
+  width: 400px;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-left: 75px;
+  border: 4px solid rgb(58, 66, 58);
+  position: relative;
+  cursor: pointer;
+}
+
+
+.cards {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-body {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  border-radius: 10px;
+  top: 0;
+  right: -100%;
+  background-color: #1f3d479f;
+  transition: 1s ease-in-out;
+  cursor: pointer;
+}
+
+.card-body0 {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  border-radius: 10px;
+  top: -100%;
+  right: 0;
+  background-color: #111c1f9f;
+  transition: 1s ease-in-out;
+  cursor: pointer;
+}
+
+.card-body1 {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  border-radius: 10px;
+  bottom: -100%;
+  right: 0;
+  background-color: #1f3d479f;
+  transition: 1s ease-in-out;
+  cursor: pointer;
+}
+
+.card-title {
+  margin-left: 20px;
+  color: white;
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 0px;
+}
+
+.card-info {
+  margin-left: 25px;
+  margin-top: 4px;
+  width: 310px;
+  color: whitesmoke;
+  font-family: "Dancing Script", cursive;
+}
+
+.see {
+  margin-left: 25px;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 550;
+  background-color: #1f3d479f;
+  border: 2px solid white;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.see:hover {
+  background-color: whitesmoke;
+  color:#1f3d47fc;
+  transform: translateX(10px) translateY(5px);
+}
+
+.card:hover .card-body {
+  right: 0;
+}
+
+
+.card:hover .card-body0 {
+  top: 0;
+}
+
+.card:hover .card-body1 {
+  bottom: 0;
+}
+
+
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.title1 {
+  margin-left: 10px;
+  font-size: 30px;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  color: white;
+  margin-top: 25px;
+  margin-right: 50px;
+}
+
+
+.circle {
+  margin-left: 150px;
+  margin-top: 0px;
+  background-color: transparent;
+  border-color: rgb(245, 183, 84);
+  border-style: solid;
+  border-width: 0.8px;
+  color: white;
+  font-size: 20px;
+  font-family: Outfit, sans-serif;
+  font-weight: 700;
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+

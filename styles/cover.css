@@ -1,0 +1,239 @@
+.ott {
+  margin-left: 560px;
+  color: rgb(153, 153, 153);
+  font-family: Outfit, sans-serif;
+  font-size: 13px;
+}
+
+
+
+.cover {
+  margin-top: 200px;
+  height: 750px;
+  width: 1519.2px;
+  background-image: url('../car/12.jpg');
+  background-size: cover;
+  position: absolute;
+  z-index: -2;
+  border: none;
+}
+
+.cover-page {
+  height: 100%;
+  width: 100%;
+}
+
+.ab{
+  background-color: rgba(31, 31, 31, 0.4);
+  position: relative;
+  height: 750px;
+  width: 1519.2px;
+  margin-top: 200px;
+  z-index: -2;
+  border: none;
+}
+
+.serve222 {
+  margin-left: 720px;
+  margin-top: 100px;
+  color: rgb(245, 183, 84);
+  letter-spacing: 6px;
+  margin-bottom: 0px;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 550;
+}
+
+.services1000 {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  color: white;
+  margin-left: 640px;
+  margin-top: 4px;
+}
+
+.choose {
+  background-color: rgb(31, 31, 31);
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 180px;
+  margin-top: 50px;
+  width: 1180px;
+  height: 80px;
+  z-index: -2;
+}
+
+.cho {
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  border: none;
+  margin-left: 40px;
+  padding-right: 40px;
+}
+
+.see1 {
+  margin-left: 25px;
+  border-radius: 10px;
+  font-weight: 550;
+  height: 50px;
+  width: 150px;
+  margin-top: 15px;
+  background-color: rgb(245, 183, 84);
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.play {
+  color: white;
+  background-color: transparent;
+  padding: 10px;
+  height: 80px;
+  font-weight: 700;
+  font-size: 20px;
+  width: 80px;
+  border-radius: 40px;
+  border-color: rgb(245, 183, 84);
+  border-width: 4px;
+  border-style: solid;
+  margin-left: 730px;
+  margin-top: -10px;
+  cursor: pointer;
+}
+
+
+
+.services00 {
+  font-size: 30px;
+  font-family: Outfit, sans-serif;
+  font-weight: bolder;
+  color: white;
+  margin-left: 685px;
+  margin-top: 0px;
+}
+
+.pack {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  margin-left: 10px;
+}
+
+
+.under-pack {
+  height: 300px;
+  width: 220px;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 2px solid white;
+  cursor: pointer;
+  position: relative;
+}
+
+.two {
+  height: 100%;
+  width:100%;
+  transition: 1s ease;
+}
+
+.under-pack:hover .two {
+  transform: scale(1.8);
+}
+
+.pack-cover {
+  position: absolute;
+  height: 100%;
+  width:100%;
+  bottom: -100%;
+  right: 0;
+  overflow: hidden;
+  background-color: rgba(211, 211, 211, 0.558);
+  transition: 1s ease;
+}
+
+.pack-cover1 {
+  position: absolute;
+  height: 100%;
+  width:100%;
+  top: -100%;
+  right: 0;
+  overflow: hidden;
+  background-color: rgba(136, 133, 133, 0.844);
+  transition: 1s ease;
+}
+
+.pack-cover2 {
+  position: absolute;
+  height: 100%;
+  width:100%;
+  top: 0;
+  right: -100%;
+  color: whitesmoke;
+  overflow: hidden;
+  background-color: rgba(35, 35, 35, 0.09);
+  transition: 1s ease;
+}
+
+.head4 {
+  color:rgb(56, 39, 39);
+  margin-left: 5px;
+  margin-top: 40px;
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 0px;
+}
+
+.head44 {
+  color:rgb(183, 127, 127);
+  margin-left: 5px;
+  margin-top: 40px;
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 0px;
+}
+
+.pack-info {
+  font-size: 15px;
+  width: 180px;
+  margin-top: 5px;
+  margin-left: 5px;
+  font-family: "Dancing Script", cursive;
+}
+
+.under-pack:hover .pack-cover{
+  bottom: 0%;
+}
+
+.under-pack:hover .pack-cover1{
+  top: 0%;
+}
+
+.under-pack:hover .pack-cover2{
+  right: 0%;
+}
+
+
+.logos {
+  background-color: rgb(43, 43, 43);
+  margin-top: 200px;
+  display: flex;
+  flex-direction: row;
+  width: 1519.2px;
+  height: 150px;
+  gap: 20px;
+}
+
+.logo {
+  height: 100px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+
+.rights {
+  color:rgb(153, 153, 153);
+  font-family: "Dancing Script", cursive;
+  margin-left: 100px;
+  margin-top: 50px;
+}
